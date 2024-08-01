@@ -3,13 +3,17 @@ body {
     margin: unset;
 }
 
+/* Layouts */
+.l_wrapper {
+    width: 448px;
+    margin: 110px auto;
+}
+
 /* Design */
 body {
     background-color: #D9D9D9;
 }
 
-.wrapper {
+.bucketlist {
     background-color: #eee;
-    width: 448px;
-    margin: 110px auto;
 }
