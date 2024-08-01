@@ -66,11 +66,17 @@ body {
 }
 
 /* 첫번째 방법 
-*/
 .lists li {
     margin-bottom: 14px;
 }
 
 .lists li:last-child {
     margin-bottom: unset;
+}
+*/
+
+/* 두번째 방법 
+*/
+.lists li + li {
+    margin-top: 14px;
 }
