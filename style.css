@@ -76,7 +76,13 @@ body {
 */
 
 /* 두번째 방법 
-*/
 .lists li + li {
+    margin-top: 14px;
+}
+*/
+
+/* 세번째 방법
+*/
+.lists li:not(:first-child) {
     margin-top: 14px;
 }
