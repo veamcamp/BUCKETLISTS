@@ -64,3 +64,13 @@ body {
     line-height: 1.25;
     border-radius: 10px;
 }
+
+/* 첫번째 방법 
+*/
+.lists li {
+    margin-bottom: 14px;
+}
+
+.lists li:last-child {
+    margin-bottom: unset;
+}
