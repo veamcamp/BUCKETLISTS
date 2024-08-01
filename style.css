@@ -1,0 +1,15 @@
+/* Resets */
+body {
+    margin: unset;
+}
+
+/* Design */
+body {
+    background-color: #D9D9D9;
+}
+
+.wrapper {
+    background-color: #eee;
+    width: 448px;
+    margin: 110px auto;
+}
