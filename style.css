@@ -1,6 +1,11 @@
 /* Resets */
-body {
+body, ol {
     margin: unset;
+    padding: unset;
+}
+
+li {
+    list-style-type: none;
 }
 
 h1 {
@@ -50,3 +55,4 @@ body {
 .bucketlist-contents {
     padding: 36px 38px 38px 38px;
 }
+
