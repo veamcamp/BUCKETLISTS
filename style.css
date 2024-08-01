@@ -3,6 +3,17 @@ body {
     margin: unset;
 }
 
+h1 {
+    margin: unset;
+    font-size: unset;
+    font-weight: unset;
+}
+
+/* Typography */
+:root {
+    font-family: 'arial';
+}
+
 /* Layouts */
 .l_wrapper {
     width: 448px;
@@ -20,6 +31,16 @@ body {
 
 .bucketlist-header {
     background-color: white;
+    padding: 44px 0;
+}
+
+.bucketlist-header h1 {
+    color: #FF007A;
+    font-size: 24px;
+    font-weight: bold;
+    border-left: 8px solid;
+    line-height: 32px;
+    padding-left: 30px;
 }
 
 .bucketlist-contents {
