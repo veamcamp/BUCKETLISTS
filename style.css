@@ -63,6 +63,7 @@ body {
     padding: 10px;
     line-height: 1.25;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 /* 첫번째 방법 
@@ -91,4 +92,16 @@ body {
 */
 .lists li:first-child ~ li {
     margin-top: 14px;
+}
+
+/* 다섯번째 방법: flexbox gap */
+
+.lists li.is_active {
+    border-color: currentColor;
+    color: #759CFF;
+    box-shadow: 0 4px 4px 0 rgb( 0 0 0 / .1 );
+    background-image: url(images/check.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px 20px;
 }
